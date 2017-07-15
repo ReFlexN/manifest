@@ -4,6 +4,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/cm-14.1" />
 
+  <remote  name="reflex"
+           fetch="https://github.com/ReFlexN"
+           revision="refs/heads/n" />
+
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr2" />
@@ -545,8 +549,8 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" />
   <project name="toolchain/binutils" />
 
-  <!-- AOSP-CAF additions -->
-  <include name="manifests/aospcaf.xml"/>
+  <!-- ReFlex additions -->
+  <include name="manifests/reflex.xml"/>
 
   <!-- LAOS additions -->
   <include name="manifests/laos.xml"/>
